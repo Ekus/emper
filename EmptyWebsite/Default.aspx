@@ -12,7 +12,7 @@
     <script src="Scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
     <script src="Scripts/jquery.signalR-0.5.0.min.js" type="text/javascript"></script>
     <script src="signalr/hubs" type="text/javascript"></script> <!-- this is dynamically generated resource with proxy definitions for server-defined hubs -->
-    <%--<script src="Scripts/hubs.js" type="text/javascript"></script>--%> a snapshot of the generated 
+    <%--<script src="Scripts/hubs.js" type="text/javascript"></script>  <!-- copy for reviewing. snapshot of the dynamically generated proxy --> --%> 
    <script type="text/javascript">
        $(function () {
            var connection = $.connection("chat");
